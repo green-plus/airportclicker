@@ -35,7 +35,7 @@ function tweet() {
   var keyWord = names.innerHTML;
 　//ツイート内容をセット
 　var tw_contents = (keyWord);
-　var url = "green-plus.github.io";
+　var url = "green-plus.github.io/airportclicker/simple.html";
   var hashtags = "シャルルドゴール空港";
 　//#twitter_buttonのhrefにパラメーターを渡す
 　window.open().location.href = ("https://twitter.com/share?url=" + url + "&text=" + tw_contents + "&count=none&lang=ja&hashtags=" + hashtags);
